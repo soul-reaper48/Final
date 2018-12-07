@@ -140,6 +140,7 @@ public class HelloController {
 	   UserServiceImpl USI = new UserServiceImpl(); 
 	   System.out.println(user);
 	   USI.insert(user);
+		System.out.println("Change commited again and again!!!!");
        return "useroptions";
    }
 }
